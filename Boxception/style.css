@@ -23,7 +23,44 @@ div {
 
 /* BONUS */
 
-table {
+/* table {
     margin: 0 auto;
     border: 3px solid black;
+} */
+
+
+td {
+    width: 100px;
+    height: 100px;
+}
+table {
+    margin: auto;
+}
+.top {
+    border-top: 3px solid black;
+}
+.right {
+    border-right: 3px solid black;
+}
+.bottom {
+    border-bottom: 3px solid black;
+}
+.left {
+    border-left: 3px solid black;
+}
+#first, #fith, td:nth-of-type(1), td:nth-of-type(5){
+    background-color: red;
+}
+/* #second :nth-child(1), #third :nth-child(1), #fourth :nth-child(1),#second :nth-child(5), #third :nth-child(5), #fourth :nth-child(5){
+    background-color: red;
+} */
+#second, #third, #fourth {
+    background-color: blue;
+}
+/* #second :nth-child(2), #second :nth-child(3), #second :nth-child(4), #fourth :nth-child(2), #fourth :nth-child(3), #fourth :nth-child(4), #third :nth-child(2),#third :nth-child(4){
+    background-color: blue;
+} */
+
+.top.bottom.left.right{
+    background-color: white;
 }
