@@ -1,0 +1,16 @@
+/* Must import font url at the start of the CSS file to be able to use it thoughout the file */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+h1{
+    /* Google Fonts website provides this code for us (Copied and paster the following from fonts.google.com */
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    /* we downloaded the font in 400 and 700 weights */
+    font-weight: 400;
+    /* If you want to have text that is both bold and italic you must select that specific font in Google Fonts */
+}
+
+
+p{
+    font-family: 'Rampart One', cursive;
+}

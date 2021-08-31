@@ -1,0 +1,74 @@
+/* BOX MODEL */
+
+h1{
+    /* CONTENT */
+    /* Sets the width and height of the content to 250px */
+    background-color: darkgreen;
+    /* width: 250px;
+    height: 250px; */
+    
+    /* The length when using a perentage is determined by the length of the parent element (in this case it is 20% of the body element). NOTE: setting the height to a perentage is only useful when the parent element is a fixed height. */
+    width: 20%;
+    text-align: center;
+
+    
+    /* PADDING */
+    /* Creates space between the content and border for an element (Padding is included in a background color or background image */
+    /* This example will set the padding on all sides (top, right, bottom, left) */
+    /* padding: 14px; */
+
+    /* This example sets the padding only above the content to 30px */
+    /* padding-top: 30px; */
+
+    /* This example sets the padding for each side individually */
+    /* Top, Right, Bottom, Left */
+    /* padding: 7px 30px 50px 90px; */
+
+    /* This example will set the padding for top/bottom and left/right with two values/positions */
+    /* top/bottom left/right */
+    /* padding: 75px 10px; */
+
+    /* Removes all padding on an element (if there is any). Unit of measurement is not needed when setting the value to zero. */
+    padding: 0;
+
+    
+    /* BORDER */
+    border: 5px solid blue;
+
+
+    /* MARGIN */
+    /* Creates space between other elements and/or the edge of the window/viewpoint */
+    /* Removes all margin on an element (if there is any). Unit of measurement is not needed when setting the value to zero. */
+    /* margin: 0; */
+
+    /* Margin works the same as padding in regards to setting each side (top, right, bottom, left) */
+    /* margin: 90px; */
+
+    /* In this example the top/bottom will have a 90px margin and "auto" will set the margin evenly on the left/right side of the element within its parent element */
+    /* margin: 90px auto; */
+
+    /* this exaple will set the top/bottom margin to 0 and will be evenly distributed on the left/right */
+    /* margin: auto; */
+
+    /* Elements collapse the vertical space between them. It will use the larger margin value to set that space. */
+    margin: 200px;
+
+
+    /* BORDER BOX */
+    /* In this example it will include the padding and border in an element's width and height. (NOTE: Content-box is the default value for box-sizing.) (50px will be included in the 250px using border-box */
+    /* box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border: 50px solid blue;
+    padding: 50px; */
+
+
+    /* THE DISPLAY PROPERTY */
+    /* The display property can be used to change elements to Block, Inline, Inline-Block */
+    /* The difference between block and inline-block is that a block element will always start on a new line, but inline-block elements can be displayed on the same line. */
+    /* The difference between inline and inline-block is that unlike inline, inline-block allows a width and height to be set on the element. Also the top and bottom margins and paddings are respected. */
+    /* display: inline; */
+    /* display: block; */
+    /* inline-block makes the element inline but respects both horizontal and verticle margins */
+    display: inline-block;
+}
